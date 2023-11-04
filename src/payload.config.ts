@@ -14,7 +14,6 @@ export default buildConfig({
     bundler: webpackBundler(),
   },
   editor: slateEditor({}),
-  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL,
   collections: [Users],
   typescript: {
     outputFile: path.resolve(__dirname, "payload-types.ts"),
